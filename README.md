@@ -7,10 +7,10 @@ WARNINGS:
 - Use at your own risk
 
 What this program will do:
-- Create and install a python virtual environment
-- Create a windows task scheduler task to run this python script on computer startup
+- Create and install a python virtual environment and python script
+- Create a windows task scheduler task to silently run this python script on computer startup
 - Every loop (60 minutes by default), check if you have the latest version of Mullvad VPN installed and running
-- Download and install the latest version of Mullvad VPN if not currently installed
+- Download and install the latest version of Mullvad VPN silently if not currently installed
 - Run Mullvad VPN if it is not currently running
 
 To install / activate:
